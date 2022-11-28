@@ -40,6 +40,7 @@
             android:hint="Re Enter Password" />
 
         <Button
+            android:id="@+id/register_Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register" />
