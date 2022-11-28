@@ -15,33 +15,61 @@
         tools:context=".RegistrationActivity">
 
         <EditText
+            android:id="@+id/registerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
             android:hint="Name" />
 
         <EditText
+            android:id="@+id/registerEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="textEmailAddress"
             android:hint="Email" />
 
         <EditText
+            android:id="@+id/registerMobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="number"
             android:hint="Mobile" />
 
         <EditText
+            android:id="@+id/registerPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="textPassword"
             android:hint="Password" />
 
         <EditText
+            android:id="@+id/registerRenamePassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="textPassword"
             android:hint="Re Enter Password" />
 
         <Button
+            android:id="@+id/register_Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
             android:text="Register" />
 
         <LinearLayout
@@ -53,12 +81,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="20dp"
                 android:text="Already Register goto Login " />
 
             <TextView
                 android:id="@+id/RegistrationClickHere"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
                 android:textColor="@android:color/holo_blue_dark"
                 android:text="Click here" />
         </LinearLayout>

@@ -15,17 +15,31 @@
         tools:context=".LoginActivity">
 
         <EditText
+            android:id="@+id/loginEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email" />
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="textEmailAddress"
+            />
 
         <EditText
+            android:id="@+id/loginPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="textPassword"
             android:hint="Password" />
 
         <Button
+            android:id="@+id/loginButton"
             android:text="LOGIN"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -33,17 +47,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_margin="10dp"
             android:gravity="center_horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="20dp"
                 android:text="Not Register yet " />
 
             <TextView
                 android:id="@+id/loginClickHere"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
                 android:textColor="@android:color/holo_blue_dark"
                 android:text="Click here" />
         </LinearLayout>
