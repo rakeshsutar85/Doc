@@ -31,7 +31,7 @@ class RegistrationActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.RegistrationClickHere.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
